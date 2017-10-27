@@ -1,0 +1,22 @@
+{
+  "name": "a-start",
+  "version": "1.0.0",
+  "description": "a start algorithem",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "prestart": "babel --presets es2015 public/*.js -o public/js/main.bundle.js",
+    "test": "blah"
+  },
+  "keywords": [
+    "a",
+    "start"
+  ],
+  "author": "Sheko Hex",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
